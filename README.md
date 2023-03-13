@@ -36,3 +36,19 @@ Next, create the following files:
 ~ touch index.js models/ArticleModel.js routes/ArticleRoute.js controllers/ArticleController.js
 ```
 
+In index.js setup express.  We will return to the other files have been setup
+```javascript
+const express = require("express");
+const PORT = 5000;
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
+
+app.listen(PORT, () => {
+  console.log(`App is listening on port ${PORT}`);
+});
+
+```
+
