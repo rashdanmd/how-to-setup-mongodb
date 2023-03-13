@@ -3,9 +3,9 @@
 This React app has been created as a guide and reference for creating a full-stack application using MongoDB and Mongoose on the backend.
 
 ## Technologies and dependencies
-Frontend: React, React-Router-DOM,
+**Frontend:** React, React-Router-DOM,
 
-Backend: express, nodemon, cors, mongoose
+**Backend:** express, nodemon, cors, mongoose
 
   
 
