@@ -33,6 +33,6 @@ cd into the server directory and create the following 3 folders:
 ```
 Next, create the following files:
 ```bash
-~ mkdir index.js models/ArticleModel.js routes/ArticleRoute.js controllers/ArticleController.js
+~ touch index.js models/ArticleModel.js routes/ArticleRoute.js controllers/ArticleController.js
 ```
-For the purpose if this demo, we are basing our model on articles.
+
