@@ -51,6 +51,8 @@ app.listen(PORT, () => {
 });
 
 ```
+
+Run the command below in the terminal, and you should see the message `App is listening on port 5000` in the console as well as 'hello world' in the browser.
 ```bash
 nodemon index.js
 ```
