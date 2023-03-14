@@ -198,9 +198,9 @@ app.listen(PORT, () => {
 
 ```
 #References
-https://www.youtube.com/watch?v=R5jNlWOv5qk&t=1478s
-https://www.mongodb.com/docs/
-https://mongoosejs.com/docs/guide.html
-http://expressjs.com/en/guide/routing.html
+- https://www.youtube.com/watch?v=R5jNlWOv5qk&t=1478s
+- https://www.mongodb.com/docs/
+- https://mongoosejs.com/docs/guide.html
+- http://expressjs.com/en/guide/routing.html
 
 
