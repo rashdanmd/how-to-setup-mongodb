@@ -3,7 +3,7 @@
 This React app has been created as a guide and reference for creating a full-stack application using MongoDB and Mongoose on the backend.
 
 ## Technologies and dependencies
-**Frontend:** React, React-Router-DOM,
+**Frontend:** React, React-Router-DOM, axios, react-bootstrap, bulma
 
 **Backend:** express, nodemon, cors, mongoose
 
@@ -57,6 +57,8 @@ Run the command below in the terminal, and you should see the message `App is li
 nodemon index.js
 ```
 #### Creating the model
+cd into models/Article.model.js
+
 ```javascript
 import mongoose from "mongoose";
 
@@ -80,6 +82,8 @@ export default mongoose.model("Articles", Article);
 ```
 
 #### Controller
+cd into controllers/ArticleCOntroller.js
+
 ```javascript
 import Article from "../models/ArticleModel.js";
 
@@ -142,6 +146,7 @@ export const deleteArticle = async (req, res) => {
 
 
 #### Routes
+cd into routes/ArticleRoute,js
 ```javascript
 import express from "express";
 import {
