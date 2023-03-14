@@ -56,4 +56,28 @@ Run the command below in the terminal, and you should see the message `App is li
 ```bash
 nodemon index.js
 ```
+#### Creating the model
+```javascript
+import mongoose from "mongoose";
+
+const Article = mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    required: true,
+  },
+  category: {
+    type: String,
+    required: true,
+  },
+});
+
+export default mongoose.model("Articles", Article);
+
+```
+
+
 
