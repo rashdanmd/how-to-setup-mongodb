@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <main>
       <h1>Home</h1>
-      <section>
+      <div className="card-section">
         {articles.map((article) => (
           <ArticleCard
             title={article.title}
@@ -46,7 +46,7 @@ const Home = () => {
           description={selectedArticle ? selectedArticle.description : ""}
           category={selectedArticle ? selectedArticle.category : ""}
         />
-      </section>
+      </div>
     </main>
   );
 };

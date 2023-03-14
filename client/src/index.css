@@ -9,9 +9,14 @@ main {
   background-color: azure;
   padding: 30px 80px;
   width: 100vw;
-}
-
-section {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card-section,
+.upload-section,
+.edit-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
 }

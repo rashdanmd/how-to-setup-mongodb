@@ -37,7 +37,7 @@ const EditArticle = () => {
   return (
     <main>
       <h1>Edit</h1>
-      <div className="columns mt-5">
+      <div className="columns mt-5 edit-section">
         <div className="column is-half">
           <form onSubmit={updateArticle}>
             <div className="field">

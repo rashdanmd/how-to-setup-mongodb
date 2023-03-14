@@ -25,7 +25,7 @@ const Upload = () => {
   return (
     <main>
       <h1>Upload</h1>
-      <div className="columns mt-5">
+      <div className="columns mt-5 upload-section">
         <div className="column is-half">
           <form onSubmit={saveArticle}>
             <div className="field">
