@@ -57,7 +57,7 @@ Run the command below in the terminal, and you should see the message `App is li
 nodemon index.js
 ```
 #### Creating the model
-cd into models/Article.model.js
+cd into models/ArticleModel.js
 
 ```javascript
 import mongoose from "mongoose";
