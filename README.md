@@ -140,7 +140,6 @@ export const deleteArticle = async (req, res) => {
 
 ```
 
-```
 
 #### Routes
 ```javascript
@@ -162,6 +161,8 @@ router.patch("/articles/:id", updateArticle);
 router.delete("/articles/:id", deleteArticle);
 
 export default router;
+
+```
 
 
 ```
